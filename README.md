@@ -1,4 +1,4 @@
-# Lark PRD Bridge
+# LarkBridge
 
 把“会后信息回填文档”做成一个可复用的 Lark/Codex skill。
 
@@ -152,9 +152,6 @@ python .\skills\lark-meeting-doc-sync\scripts\build_comment_plan.py --doc-struct
 - 支持同一场会议同步到多个文档。
 - 增加不同文档类型的 target adapter，而不是只围绕 PRD。
 
-## 发布到 GitHub
-
-```powershell
 git init
 git add .
 git commit -m "feat: bootstrap lark meeting doc sync skill"
