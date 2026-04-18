@@ -1,0 +1,7 @@
+interface:
+  display_name: "Lark Meeting Doc Sync"
+  short_description: "Sync meeting findings back into Lark docs as comments."
+  default_prompt: "Use $lark-meeting-doc-sync to map a completed meeting back into a Lark doc with targeted comments."
+
+policy:
+  allow_implicit_invocation: true
